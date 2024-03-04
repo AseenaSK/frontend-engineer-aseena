@@ -1,0 +1,180 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EE4266;
+
+}
+
+.navbarsmall {
+    display: none;
+}
+
+.navbar-image {
+    height: 20px;
+    width: 20px
+}
+
+.home {
+    display: flex;
+
+}
+
+.home-image {
+    height: 400px;
+    width: 50%;
+}
+
+.home-content {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-image: linear-gradient(to right, #F7F6BB, #FFB5DA);
+    padding: 30px;
+}
+ 
+.small-nav{
+        display:none;
+    }
+
+.button {
+    color: white;
+    background-color: #EE4266;
+    border-width: 0px;
+    width: 100px
+}
+#sectionContent{
+    background-image: linear-gradient(to right, #F7F6BB, #FFB5DA);
+    width:100%;
+    display:flex;
+    margin-top:10px;
+    justify-content: space-around;
+   
+}
+.image1{
+    height:150px;;
+    width:150px;
+    margin:5px;
+   
+}
+.image2{
+    height:300px;
+    width:70%;
+    margin:10px;
+   
+   
+}
+.image-con{
+    display:flex;
+    flex-direction:column;
+   
+}
+.name{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:50%
+}
+.image-container{
+  padding-right:2px;
+ display:flex;
+ width:50%
+
+
+}
+.foodnamecon{
+    background-color:#EE4266 ;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top:50px;
+    width:50%;
+    height:210px;
+    font-family:"Monospace";
+    padding:5px;
+    margin-left:20px;
+    font-size:12px;
+
+}
+.click{
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+.p1{
+    font-size:15px;
+}
+.h1{
+    font-size:25px;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    .small-nav{
+        display:flex;
+          background-color: #EE4266;
+    }
+    .navbarsmall {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #EE4266;
+        
+    }
+    
+    .home-image {
+        height: 300px;
+        width: 50%;
+        margin-top:10px
+    }
+
+
+    .navbar {
+        display: none;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-image {
+        width: 100%;
+    }
+    .foodnamecon{
+        font-size:9px;
+        height:150px;
+        width:50%;
+        margin:30px;
+    }
+    .image-container{
+        width:40%
+    }
+    .image1{
+        height:100px;;
+        width:100px;
+        margin:2px;
+       
+    }
+    .image2{
+        height:200px;
+        width:60%;
+        margin:5px;  
+       
+    }
+    .arrow{
+        height:10px;
+    }
+    .p1{
+        font-size:10px;
+    }
+    .h1{
+        font-size:15px;
+    }
+
+}
